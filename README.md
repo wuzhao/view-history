@@ -1,7 +1,7 @@
 View History
 ==============
 
-管理网页浏览历史记录，保存页面浏览记录，取出的记录内容进行数组化处理。兼容 IE8+、Firefox、Chrome、Safari、Opera 等新型浏览器。
+管理网页浏览历史记录，保存页面浏览记录，取出的记录内容进行数组化处理。IE6 和 IE7 需要第三方 JSON 库支持，推荐使用 [json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)。
 
 ![文章浏览历史记录](http://img.neoease.org/2013/01/view-history.png)
 
