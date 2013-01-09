@@ -3,7 +3,9 @@ View History
 
 管理网页浏览历史记录，保存页面浏览记录，取出的记录内容进行数组化处理。兼容 IE8+、Firefox、Chrome、Safari、Opera 等新型浏览器。
 
-[DEMO](http://www.neoease.com/)
+![文章浏览历史记录](http://img.neoease.org/2013/01/view-history.png)
+
+[相关文章和 DEMO](http://www.neoease.com/recently-viewed-items/)
 
 <!--![文章浏览记录]()-->
 
