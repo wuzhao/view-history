@@ -7,7 +7,7 @@ ViewHistory = function() {
 
 	this.config = {
 		limit: 10,
-		storeagekey: 'viewHistory',
+		storageKey: 'viewHistory',
 		primaryKey: 'url'
 	};
 };
@@ -34,11 +34,11 @@ ViewHistory.prototype = {
 		}
 
 		var json = JSON.stringify(items);
-		localStorage.setItem(this.config.storeagekey, json);
+		localStorage.setItem(this.config.storageKey, json);
 	},
 
 	getHistories: function() {
-		var history = localStorage[this.config.storeagekey];
+		var history = localStorage[this.config.storageKey];
 		if(history) {
 			return JSON.parse(history);
 		}

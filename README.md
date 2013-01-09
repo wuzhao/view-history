@@ -18,7 +18,7 @@ Parameters
 
 * `storeagekey` {string}
 
-	该工具使用 localStoreage 保存信息，这是对应使用的 localStoreage key。
+	该工具使用 localStorage 保存信息，这是对应使用的 localStorage key。
 
 * `primaryKey` {string}
 
