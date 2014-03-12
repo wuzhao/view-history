@@ -31,7 +31,6 @@ Usage
 
 	<script src="view-history.js"></script>
 	<script>
-	/* <![CDATA[ */
 	if(typeof localStorage !== 'undefined' && typeof JSON !== 'undefined') {
 		var viewHistory = new ViewHistory();
 		viewHistory.init({
@@ -40,7 +39,6 @@ Usage
 			primaryKey: 'url'
 		});
 	}
-	/* ]]> */
 	</script>
 
 ### 保存页面信息
